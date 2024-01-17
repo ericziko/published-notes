@@ -1,7 +1,8 @@
 # A conversation with Chat-GPT about designing an approval workflow in Kafka
 
 ## Summary:
-The following document is a refined transcript of a conversation that Eric Ziko had with Chat-GPT about designing an approval workflow software system.
+The following document is a refined transcript of a conversation that Eric Ziko had with Chat-GPT about designing an approval workflow so
+ftware system.
 
 ## Table Of Contents
 
