@@ -1,0 +1,36 @@
+/* Problem → Solution visual badges via cssclass.
+   Place this file into: .obsidian/snippets/problem-solution.css and enable it. */
+
+.markdown-preview-view .pkm-problem h1::before {
+  content: "🚧 Problem ";
+  opacity: 0.9;
+  font-weight: 600;
+  margin-right: 0.25rem;
+}
+
+.markdown-preview-view .pkm-solution h1::before {
+  content: "✅ Solution ";
+  opacity: 0.9;
+  font-weight: 600;
+  margin-right: 0.25rem;
+}
+
+.markdown-preview-view .pkm-principle h1::before {
+  content: "🧭 Principle ";
+  opacity: 0.9;
+  font-weight: 600;
+  margin-right: 0.25rem;
+}
+
+.markdown-preview-view .pkm-experiment h1::before {
+  content: "🧪 Experiment ";
+  opacity: 0.9;
+  font-weight: 600;
+  margin-right: 0.25rem;
+}
+
+/* Optional subtle border cue */
+.markdown-preview-view .pkm-problem { border-left: 4px solid var(--color-red); padding-left: 10px; }
+.markdown-preview-view .pkm-solution { border-left: 4px solid var(--color-green); padding-left: 10px; }
+.markdown-preview-view .pkm-principle { border-left: 4px solid var(--color-yellow); padding-left: 10px; }
+.markdown-preview-view .pkm-experiment { border-left: 4px solid var(--color-blue); padding-left: 10px; }
